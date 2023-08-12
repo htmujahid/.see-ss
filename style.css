@@ -1,0 +1,364 @@
+:root {
+    --font-family: Arial, sans-serif;
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --bg-color: #f8f9fa;
+    --text-color: #333;
+    --max-width: 1200px;
+
+    /* Spacing */
+    --spacing-unit: 8px;
+    --padding-small: var(--spacing-unit);
+    --padding-medium: calc(2 * var(--spacing-unit));
+    --padding-large: calc(3 * var(--spacing-unit));
+
+    /* Typography */
+    --fsont-size-mall: 14px;
+    --font-size-base: 16px;
+    --font-size-medium: 18px;
+    --font-size-large: 20px;
+    --font-size-xlarge: 22px;
+    --line-height: 1.5;
+
+    /* Border */
+    --border-radius: 4px;
+    --border-width: 1px;
+    --border-color: #ccc;
+
+    /* Box Shadow */
+    --box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    /* Breakpoints */
+    --breakpoint-small: 576px;
+    --breakpoint-medium: 768px;
+    --breakpoint-large: 992px;
+    --breakpoint-xlarge: 1200px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* section root */
+body {
+    font-family: var(--font-family);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: var(--line-height);
+}
+/* content section */
+address {
+}
+
+article {
+}
+
+aside {
+}
+
+footer {
+}
+
+header {
+}
+
+h1 {
+}
+
+h2 {
+}
+
+h3 {
+}
+
+h4 {
+}
+
+h5 {
+}
+
+h6 {
+}
+
+hgroup {
+}
+
+main {
+}
+
+nav {
+}
+
+section {
+}
+/* text content */
+blackquote {
+}
+
+dd {
+}
+
+div {
+}
+
+dl {
+}
+
+dt {
+}
+
+figcaption {
+}
+
+figure {
+}
+
+hr {
+}
+
+li {
+}
+
+menu {
+}
+
+ol {
+}
+
+p {
+}
+
+pre {
+}
+
+ul {
+}
+/* inline text semantics */
+a {
+}
+
+abbr {
+}
+
+b {
+}
+
+bdi {
+}
+
+bdo {
+}
+
+br {
+}
+
+cite {
+}
+
+code {
+}
+
+data {
+}
+
+dfn {
+}
+
+em {
+}
+
+i {
+}
+
+kbd {
+}
+
+mark {
+}
+
+q {
+}
+
+rp {
+}
+
+rt {
+}
+
+ruby {
+}
+
+s {
+}
+
+samp {
+}
+
+small {
+}
+
+span {
+}
+
+strong {
+}
+
+sub {
+}
+
+sup {
+}
+
+time {
+}
+
+u {
+}
+
+var {
+}
+
+wbr {
+}
+/* image and multimedia */
+area {
+}
+
+audio {
+}
+
+img {
+}
+
+map {
+}
+
+track {
+}
+
+video {
+}
+/* embedded content */
+embed {
+}
+
+iframe {
+}
+
+object {
+}
+
+picture {
+}
+
+portal {
+}
+
+source {
+}
+/* svg and mathml */
+svg {
+}
+
+math {
+}
+/* demarcating edits */
+del {
+}
+
+ins {
+}
+/* table content */
+caption {
+}
+
+col {
+}
+
+colgroup {
+}
+
+table {
+}
+
+tbody {
+}
+
+td {
+}
+
+tfoot {
+}
+
+th {
+}
+
+thead {
+}
+
+tr {
+}
+/* forms */
+button {
+}
+
+datalist {
+}
+
+fieldset {
+}
+
+form {
+}
+
+input {
+}
+
+label {
+}
+
+legend {
+}
+
+meter {
+}
+
+optgroup {
+}
+
+option {
+}
+
+output {
+}
+
+progress {
+}
+
+select {
+}
+
+textarea {
+}
+/* interactive elements */
+details {
+}
+
+dialog {
+}
+
+summary {
+}
+/* media queries */
+@media (min-width: var(--breakpoint-small)) {
+}
+
+@media (min-width: var(--breakpoint-medium)) {
+}
+
+@media (min-width: var(--breakpoint-large)) {
+}
+
+@media (min-width: var(--breakpoint-xlarge)) {
+}
